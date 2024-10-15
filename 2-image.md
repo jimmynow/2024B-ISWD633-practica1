@@ -4,7 +4,7 @@ Es un archivo único que contiene todos los programas, librerías, dependencias 
 
 
 ## ¿Cuál es la relación entre una imagen y un contenedor? 
-# Que el contenedor es generado a partir de una imagen como base, pudiendo tener varios contenedores a partir de la misma imagen.
+Que el contenedor es generado a partir de una imagen como base, pudiendo tener varios contenedores a partir de la misma imagen.
 
 ![Imagen y contenedores](img/imagenContenedores.JPG)
 ## Comandos para imágenes
@@ -24,13 +24,18 @@ docker pull <nombre imagen>:<tag>
 ```
 
 Descargar la imagen **hello-world**
-# COMPLETAR
+```
+docker pull hello-world
+```
 
 **¿Qué es nginx**
-# COMPLETAR 
+Es uns ervidor web que tambien puede actuar como proxy, puede servir para albergar contenido estático y dinámico, tambien puede redirigir solicitudes de
+clientes a servidores. 
 
 Descargar la imagen  **nginx** en la versión **alpine**
-# COMPLETAR
+```
+docker pull nginx:alpine
+```
 
 ### Listar imágenes
 
@@ -38,7 +43,7 @@ Descargar la imagen  **nginx** en la versión **alpine**
 docker images
 ```
 
-# COLOCAR UNA CAPTURA DE PANTALLA DEL RESULTADO 
+![Listado Imagenes](img/listarImagenes.JPG) 
 
 **Identificadores**
 

@@ -57,11 +57,13 @@ docker inspect <nombre imagen>
 docker inspect <nombre imagen>:<tag>
 ```
 
-Inspeccionar la imagen hello-world 
-# COMPLETAR
-
+Inspeccionar la imagen hello-world
+```
+docker inspect hello-world
+```
 **¿Con qué algoritmo se está generando el ID de la imagen**
-# COMPLETAR
+
+Con el algoritmo SHA-256 que es un algoritmo de hash que produce un valor de hasta 256 bits.
 
 ### Filtrar imágenes
 
@@ -78,8 +80,9 @@ docker rmi <nombre imagen>:<tag>
 ```
 
 Eliminar la imagen hello-world 
-# COMPLETAR
-
+```
+docker rmi hello-world
+```
 -f: Es la opción para forzar la eliminación de la imagen incluso si hay contenedores en ejecución que utilizan esa imagen.
 Cuando eliminas una imagen Docker, Docker no elimina automáticamente los contenedores que se han creado a partir de esa imagen. Esto significa que, aunque hayas eliminado la imagen, el contenedor seguirá ejecutándose normalmente.  
 **Considerar**

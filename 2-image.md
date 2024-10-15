@@ -43,7 +43,7 @@ docker pull nginx:alpine
 docker images
 ```
 
-![Listado Imagenes](img/listarImagenes.JPG) 
+![Listado Imagenes](img/listarImagenes.PNG) 
 
 **Identificadores**
 
